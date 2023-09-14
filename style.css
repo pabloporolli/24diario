@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Raleway&display=swap');
+
+*{
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+	padding: 0;
+}v
+
+html{
+	font-size: 62.5%;
+}
+
+
+.tutiloNoticia {
+    margin: 1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    color: darkblue;
+}
+
+.tutiloNoticia a {
+    text-decoration: none;
+}
+
+.contenedorFuenteCopete {
+    margin: 1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    color: black;
+    text-decoration: none;
+}
+
+.fuente {
+    border-style: groove;
+    border-width: 0.1rem;
+    margin-right: 1rem;
+    color: black;
+}
+
+.fuente a {
+    text-decoration: none;
+}
+
+.pie {
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100%;
+}
+
+.contenedorNoticia a {
+    color: black;
+    text-decoration: none;
+}
+
+.copete {
+    color: black;
+    text-decoration: none;
+}
+
+.contenedorGeneral {
+    display: flex;
+    flex-direction: column;
+}
